@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Portfolio de Juan Mora</title>
+
+    <!-- ES IMPORTANTE LLAMARA AL ARCHIVO CSS PARA PODER MEJORAR EL ESTILO DE LA PAGINA WN HTML -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+
+    <!-- EN ESTA PARTE EN EL HEADER PONGO MI LOGO DE JUAN MORA -->
+    <header>
+        <img src="logo_JuanMora.png" alt="Logo Juan Mora" width="280" style="float:inline-start">
+        <H1>Transformo ideas en sitios web para tu negocio</H1>
+        <h5>Diseños de paginas web y administración de redes sociales</h5>
+    </header>
+
+    <!-- CONTENIDO PERSONAL DE JUAN MORA -->
+    <main>
+        <!-- PRESENTACION JUAN MORA -->
+        <section id="presentacion"
+            style="background-color: #f5f5f5; padding: 40px 20px; text-align: center; font-family: Arial, sans-serif; border-radius: 15px;">
+            <h2 style="font-size: 32px; margin-bottom: 20px;">Sobre mí</h2>
+
+            <img src="foto_JuanMora.jpg" alt="Juan Mora" width="150"
+                style="border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.2); margin-bottom: 20px;">
+
+            <div style="max-width: 700px; margin: auto; font-size: 18px; line-height: 1.6;">
+                <p>¡Hola! Soy <strong>Juan Mora</strong>, un apasionado por la tecnología y la innovación.</p>
+                <p>Actualmente brindo <strong>servicios de diseño web y gestión de redes sociales</strong>, ayudando a
+                    nuevos emprendedores a mejorar su presencia en Internet.</p>
+                <p>Día a día sigo aprendiendo programación con <strong>HTML y CSS</strong>, porque creo que cada sitio
+                    web es una oportunidad para contar una historia emprendedora.</p>
+                <p><strong>¡Seguime en mis redes sociales</strong> y descubrí cómo podemos trabajar juntos!</p>
+            </div>
+        </section>
+
+        <div style="display: flex; justify-content: center; gap: 40px; align-items: flex-start; flex-wrap: wrap;">
+
+            <!-- MIS HOBBIES PERSONALES -->
+            <section id="hobbies" style="width: 300px;">
+                <h2>Mis Hobbies</h2>
+                <ul>
+                    <li><a href="https://www.argentina.basketball/" target="_blank">BASKET BALL</a></li>
+                    <li><a href="https://cursos.argentina.gob.ar/" target="_blank">ENSEÑAR INFORMÁTICA</a></li>
+                    <li><a href="index.html" target="_blank">ACTIVIDADES SOCIALES</a></li>
+                    <li><a href="index.html" target="_blank">APRENDER INFORMATICA</a></li>
+                </ul>
+            </section>
+        
+            <!-- MIS HABILIDADES -->
+            <section id="habilidades" style="width: 300px;">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>PENSAMIENTOS CREATIVOS</li>
+                    <li>VENTAS DIGITALES</li>
+                    <li>HERRAMIENTAS INFORMÁTICAS</li>
+                    <li>HABILIDADES PARA COMUNICAR</li>
+                </ul>
+            </section>
+        
+        </div>
+
+        <!-- MIS REDES SOCIALES Y MI WEB -->
+        <section id="redes" style="text-align: center; padding: 40px 20px;">
+            <h2>Redes Sociales y mi Página Web</h2>
+            <p>Seguime en:</p>
+            <ul style="list-style: none; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 15px; font-size: 20px;">
+                <li><a href="https://www.linkedin.com/in/juanrmoraok/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                <li><a href="https://github.com/juanrmora" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+                <li><a href="https://www.facebook.com/juanmoratucuman" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+                <li><a href="https://www.instagram.com/juanrmoraok" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a href="https://wa.me/3815238297" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+                <li><a href="https://x.com/juanrmoraok/" target="_blank"><i class="fab fa-x-twitter"></i> Twitter</a></li>
+                <li><a href="https://juanmora.com.ar/" target="_blank"><i class="fas fa-globe"></i> Mi Web</a></li>
+            </ul>
+        </section>
+
+        <!-- Formulario de contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre Completo:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="correo">Correo electronico:</label><br>
+                <input type="email" id="correo" name="correo" required><br><br>
+
+                <label for="mensaje">Deje su Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="5" required></textarea><br><br>
+
+                <label for="motivo">Usted necesita informacion sobre:</label><br>
+                <select id="motivo" name="motivo">
+                    <option value="paginaweb">Pagina Web</option>
+                    <option value="redes">CM para administrar tus redes sociales</option>
+                    <option value="asesoramiento">Asesoramiento</option>
+                    <option value="consulta">Otro Motivo de su consulta</option>
+                </select><br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Pie de p�gina -->
+    <footer>
+        <p>&copy; Juan Mora (2025) - PROGRAMACION III - UTN </p>
+    </footer>
+
+</body>
+
+</html>

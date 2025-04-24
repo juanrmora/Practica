@@ -1,0 +1,82 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #1c65e3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Imagen del header */
+header img {
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+/* Secciones */
+section {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+h2 {
+    color: #0066cc;
+}
+
+/* Listas de hobbies y redes */
+ul {
+    list-style-type: none;
+    padding: 100;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Enlaces */
+a {
+    color: #ac450a;
+    text-decoration: none;
+}
+
+/* Pseudo-clase hover */
+a:hover {
+    color: #003366;
+    text-decoration: underline;
+}
+
+/* Formulario */
+form input, form textarea, form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+form button {
+    background-color: #ea4c08;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1e7ddd;
+}
+
+/* Pie de p�gina */
+footer {
+    background-color: #4615da;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+}
